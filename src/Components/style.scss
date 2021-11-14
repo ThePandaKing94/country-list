@@ -1,0 +1,158 @@
+html {
+    background-color: black;
+    color: gold;
+}
+
+
+.sticky {
+    position: fixed;
+    margin-left: 70%;
+}
+
+.btnOnclick {
+    padding: 20px;
+    border: 3px solid gold;
+    border-radius: 15px;
+    color: gold;
+    background-color: black;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.btnOnclick:hover {
+    border: 3px solid #b9f2ff;
+    color: #b9f2ff;
+    background-color: rgb(0, 92, 12);
+    cursor: pointer;
+}
+
+.country-list {
+    margin: auto auto auto 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+}
+
+.tableContainerHeader {
+    margin-bottom: 30px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.tableContainer {
+    width: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.tableInfoHeader {
+    font-size: 50px;
+    text-align: left;
+    width: 15vw;
+}
+
+.tableInfo {
+    height: 120px;
+    font-size: 30px;
+    text-align: left;
+    width: 15vw;
+}
+
+@media only screen and (max-width: 1050px) {
+    .sticky {
+        margin: -600px auto auto auto;
+        width: 100%;
+    }
+  
+  .tableContainerHeader {
+    margin-bottom: 10px;
+    width: auto;
+    display: grid;
+}
+
+.tableContainer {
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.country-list {
+    margin: 600px auto auto 20px;
+}
+
+.column {
+    display: grid;
+}
+
+.tableInfoHeader {
+    height: 10px;
+    font-size: 25px;
+    text-align: left;
+    width: 15vw;
+    margin-bottom: 30px;
+    padding: 15px 5px;
+}
+
+.tableInfo {
+    height: 120px;
+    font-size: 20px;
+    text-align: left;
+    width: 15vw;
+    padding: 5px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .sticky {
+        margin: -400px auto auto auto;
+        width: 100%;
+    }
+  
+  .tableContainerHeader {
+    margin-bottom: 10px;
+    width: auto;
+    display: grid;
+}
+
+.tableContainer {
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.country-list {
+    margin: 400px auto auto 20px;
+}
+
+.column {
+    display: grid;
+}
+
+.tableInfoHeader {
+    height: 10px;
+    font-size: 15px;
+    text-align: left;
+    width: 15vw;
+    padding: 5px;
+}
+
+.tableInfo {
+    height: 120px;
+    font-size: 12px;
+    text-align: left;
+    width: 15vw;
+    padding: 5px;
+}
+
+.txtInfo {
+    font-size: 20px;
+}
+}
